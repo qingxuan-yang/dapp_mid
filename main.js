@@ -82,8 +82,6 @@ function addSidebar(){
 	if(cStyle==undefined){cStyle="";}
 	cStyle += "font-family: Arial";
 	$('body').eq(0).attr('style',cStyle);
-	sideB.append('<button id="bFreeze" onclick="freeze()">Toggle Freeze</button><br><br>')
-	sideB.append('<button id="ColorblindTrigger" onclick="tColorBlind()">Activate Colorblind</button><br><br>')
 	sideB.append('<p id="showHeader">顯示/隱藏 圖表:</p>')
 	var aPairs = getGraphs();
 	for (var i=0;i<aPairs.length;i++){
